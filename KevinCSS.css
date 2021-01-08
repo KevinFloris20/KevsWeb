@@ -1,0 +1,49 @@
+body{
+    background: rgb(236, 138, 13);
+}
+
+h1{
+    position: relative;
+    size: 500;
+    padding: 50px 700px;
+}
+
+h2{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+li a {
+    display: block;
+    size: 600;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    color: white;
+    border: 2px solid white;
+  }
+
+  li a:hover {
+    background-color: gray;
+    color: white;
+  }
+Q{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    transition: all ease-in-out 1.8s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0px 15px;
+    background: #040b14;
+    overflow-y: auto;
+  }
+
+  div{
+      padding: 0px 450px;
+      width: 80%;
+      height: 20%;
+  }
