@@ -1,11 +1,13 @@
 body{
-    background: rgb(236, 138, 13);
+    background: rgb(110, 28, 218);
 }
 
 h1{
     position: relative;
+    text-align: center;
     size: 500;
-    padding: 50px 700px;
+    padding: 5% 5% 5% 50%;
+    
 }
 
 h2{
@@ -19,7 +21,7 @@ li a {
     display: block;
     size: 600;
     text-align: center;
-    padding: 50px 50px 50px 50px;
+    padding: 10%;
     color: white;
     border: 2px solid white;
   }
@@ -34,17 +36,18 @@ li a {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 250px;
+    width: 15%;
     transition: all ease-in-out 1.8s;
     z-index: 9997;
     transition: all 0.5s;
     padding: 0px 15px;
-    background: #040b14;
+    background: #313336;
     overflow-y: auto;
   }
 
-  #image{
-      padding: 0px 450px;
-      width: 80%;
-      height: 20%;
+    #img{
+    /* padding: 0% 0% 0% 50% ;
+    align-self: center;  */
+    /* width: 20%;
+    height: 20%; */
   }
