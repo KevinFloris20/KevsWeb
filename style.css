@@ -54,7 +54,7 @@ li a {
     left: 30%;
     color: white;
     list-style-type: none;
-    display: none;
+    /* display: none; */
   }
 
   #img{
