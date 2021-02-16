@@ -2,12 +2,13 @@ body{
     background: rgb(110, 28, 218);
 }
 
-h1{
-    position: relative;
-    text-align: center;
-    size: 500;
+#form{
     padding: 5% 5% 5% 50%;
-    
+}
+
+h1{
+    size: 500;
+    padding-left: 50%;
 }
 
 h2{
@@ -18,10 +19,11 @@ ul{
     list-style-type: none;
 }
 li a {
+    list-style-type: none;
     display: block;
     size: 600;
     text-align: center;
-    padding: 10%;
+    padding: 20%;
     color: white;
     border: 2px solid white;
   }
@@ -41,13 +43,25 @@ li a {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0px 15px;
-    background: #313336;
+    background: #000000;
     overflow-y: auto;
   }
+  
+  .info{
+    size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    list-style-type: none;
+    display: none;
+  }
 
-    #img{
-    /* padding: 0% 0% 0% 50% ;
-    align-self: center;  */
-    /* width: 20%;
-    height: 20%; */
+  #img{
+    position: relative;
+    padding: 0% 0% 0% 50% ;
+    transition-property:right;
+    transition: 3s;
+    width: 20%;
+    height: 20%;
   }

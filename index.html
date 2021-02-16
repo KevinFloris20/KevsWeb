@@ -12,13 +12,45 @@
 </head>
 
 <body>
-    <format>
         <!-- my nameee -->
-        <h1>
-            Kevin Floris: <br>
-            <img id="img" src="IMG_1467.JPG">
-        </h1>
+        <format id="form">
+            <h1>
+                Kevin Floris: <br>
+            </h1>
 
+            <!--images  -->
+            <img id="img" src="IMG_1467.JPG">
+        </format>
+
+        <!-- about -->
+        <div class="info" >
+            <!-- Notable Projects -->
+            <div id="prod">
+                <h>Notable Projects:</h><br>
+                <li><a href="https://kevinfloris20.github.io/ClassyMovies/">Classy Movies</a></li><br>
+                <li><a href="https://kevinfloris20.github.io/weatherPlanner/">Weather Planner</a></li><br>
+                <h>In progress:</h><br>
+                <li><a href="https://kevinfloris20.github.io/pizzatime/">Pizza Time website</a></li><br>
+            </div>
+
+            <!-- Skils -->
+            <div id="skills">
+                <h>
+                    Skills:<br>
+                    - Javascript <br>
+                    - Html <br>
+                    - Css <br>
+                    - Italian <br>
+                    - Jquery <br>
+                    - Git <br>
+                    - Node.js <br>
+                    - Amazon seller central <br>
+                    - Shopify <br>
+                    - Fought the brazillian mafia <br> 
+                </h>
+            </div>
+        </div>
+            
         <!-- sidebar -->
         <div id="sidebar">
             <h2> 
@@ -26,25 +58,36 @@
                     Howdy😎
                 </strong>
             </h2>
-
             <ul>
                 <li><a href="Resume 2-9-2021.pdf">Resume</a></li>
-                <li><a href="https://www.google.com/search?q=nothing&rlz=1C1UEAD_enUS930US930&oq=nothing&aqs=chrome..69i57j0i67j46i67l2j46i67i433j0i67j46i199i291i433j0i271.2095j0j15&sourceid=chrome&ie=UTF-8">Goals</a></li>
-                <li><a href="https://image.shutterstock.com/image-photo/image-450w-168849227.jpg">Portfolio</a></li>
+                <li><a id="note">Notable Projects</a></li>
+                <li><a id="skill">Skills</a></li>
+                <li><a href="https://github.com/KevinFloris20">GitHub</a></li>
                 <li><a href="https://s.yimg.com/aah/pomegranate/sea-otter-mother-and-newborn-notecard-24.jpg">otter</a></li>
             </ul>
         </div>
 
-        <!--images  -->
-        <!-- <div id="image">
-            <img id="img" src="IMG_1467.JPG">
-            <h1></h1>
-            <p>
-                <ol>
-                    <li></li>
-                </ol>
-            </p>
-        </div> -->
-    </format>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+         console.log("yo");
+            function clicked(){
+                let div = document.getElementById("skills").style.display;
+                let div2 = document.getElementById("prod").style.display;
+                if (div == "none"){
+                    div = "block";
+                }
+                else{
+                    div = "none";
+                }
+                if (div2 == "none"){
+                    div2 = "block";
+                }
+                else{
+                    div2 = "none";
+                }
+                console.log("yo");
+            }
+            $("#skill","#note").on("click", clicked());
+        </script>
 </body>
 </html>
